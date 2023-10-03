@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment Scan+</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Assignment Scan +</h1>
+        <form action="/" method="POST" id="assessment-form" enctype="multipart/form-data">
+            <label for="keywords">Enter keywords / Terminologies:</label>
+            <input type="text" id="keywords" name="keywords" required>
+            <input type="file" id="document" name="document" accept=".pdf,.doc,.docx" required>
+            <button type="submit" value="Submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
