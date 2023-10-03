@@ -1,2 +1,2 @@
-fitz==0.0.1.dev2
+cdfitz==0.0.1.dev2
 Flask==2.3.2
